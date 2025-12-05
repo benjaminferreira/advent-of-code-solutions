@@ -1,5 +1,5 @@
 const fs = require("fs");
-invalidIDSum = 0;
+let invalidIDSum = 0;
 
 function FindInvalidIDs(idRange) {
 	const splitRange = idRange.split("-");

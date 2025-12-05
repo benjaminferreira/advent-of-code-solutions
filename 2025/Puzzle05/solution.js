@@ -1,5 +1,5 @@
 const fs = require("fs");
-joltageSum = 0;
+let joltageSum = 0;
 
 function ChooseBats(bank) {
 	bank = bank.trim();
@@ -11,7 +11,7 @@ function ChooseBats(bank) {
 		let curDigit = parseInt(bank[i]);
 		if (curDigit > bigDigit1) {
 			bigDigit1 = curDigit;
-			bigSpot = i;
+			bigSpot1 = i;
 		}
 	}
 
